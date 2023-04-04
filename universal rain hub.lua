@@ -40,10 +40,15 @@ local Window = Rayfield:CreateWindow({
  },
  })
 
----Buttons
+
 
  local Window = Window:CreateTab("Main", 4483362458) -- Title, Image
+
+
+---HAT SCRIPTS
+
  local Section = Window:CreateSection("Hat Scripts")
+
 
  local Button = Window:CreateButton({
     Name = "FE Laser Arm Script (Must Have Bacon Hair and 9 other hats)",
@@ -89,3 +94,22 @@ local Button = Window:CreateButton({
       loadstring(game:HttpGet("https://pastebin.com/raw/bQaCFdBt"))()
    end,
 })
+
+---USER SCRIPTS
+local Section = Window:CreateSection("User Scripts")
+
+local Button = Window:CreateButton({
+    Name = "Force Reset",
+    Callback = function()
+        game.Players.LocalPlayer.Character:WaitForChild("Head"):Destroy()
+        game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Health = 0
+        game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart"):Destroy()
+    end,
+ })
+
+ local Button = Window:CreateButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+ })
