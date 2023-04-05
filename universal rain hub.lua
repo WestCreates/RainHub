@@ -98,7 +98,6 @@ local Button = Window:CreateButton({
 local Button = Window:CreateButton({
     Name = "HatHub V4",
     Callback = function()
-        Rayfield:Notify({
         loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
     end,
  })
