@@ -114,9 +114,9 @@ local Button = Window:CreateButton({
 local Section = Window:CreateSection("User Scripts")
 
 local Button = Window:CreateButton({
-    Name = "FE Parkour V4",
+    Name = "FE Parkour (R6)",
     Callback = function()
-        loadstring(game:HttpGet(('https://pastefy.ga/Ucu1UkxZ/raw'),true))()
+        loadstring(game:HttpGet(('https://https://pastebin.com/raw/zNTsKwRv'),true))()
     end,
  })
 
