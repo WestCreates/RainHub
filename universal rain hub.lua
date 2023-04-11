@@ -96,14 +96,31 @@ local Button = Window:CreateButton({
 })
 
 local Button = Window:CreateButton({
-    Name = "HatHub V4",
+    Name = "Physics PP (Requires all 10 international fedoras!)",
     Callback = function()
-        loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/74581bf579eea6313bc234d2808a14bc/raw/8a38ca0f328c91b6f358ad9df2413fabed213b2a/ppscriptv2", true))()
     end,
  })
 
+ local Button = Window:CreateButton({
+    Name = "Free gamepass UI (only works on some games)",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/53yY1S39'))()
+    end,
+ })
+
+
 ---USER SCRIPTS
 local Section = Window:CreateSection("User Scripts")
+
+local Button = Window:CreateButton({
+    Name = "FE Parkour V4",
+    Callback = function()
+        loadstring(game:HttpGet(('https://pastefy.ga/Ucu1UkxZ/raw'),true))()
+    end,
+ })
+
+
 
 local Button = Window:CreateButton({
     Name = "Force Reset",
