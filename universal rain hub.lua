@@ -116,7 +116,7 @@ local Section = Window:CreateSection("User Scripts")
 local Button = Window:CreateButton({
     Name = "FE Parkour (R6)",
     Callback = function()
-        loadstring(game:HttpGet(('https://https://pastebin.com/raw/zNTsKwRv'),true))()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/zNTsKwRv'),true))()
     end,
  })
 
